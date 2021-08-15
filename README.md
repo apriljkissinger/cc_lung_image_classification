@@ -1,7 +1,7 @@
 # cc_lung_image_classification
 Detect whether a patient has Covid-19, pneumonia, or no illness using x-ray images of their lungs.   
 
-Codecademy Deep Learning Classification Project.
+Codecademy Deep Learning Challenge Classification Project.
 
 Repository contents:
 
@@ -18,5 +18,3 @@ test data folder, 3 folders 1 for each class
 each image is 256 x 256 greyscale
 
 weights.hdf5 : weights saved from the ModelCheckpoint callback in keras which holds the weights for the epoch with the lowest cross entropy
-
-ImageDataGenerator folder: Empyt foler made to hold the images after batching and augmenting. Not necessary if not saving images to a folder. 
